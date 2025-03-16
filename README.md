@@ -53,9 +53,6 @@ NTT-DATA/
 │   │   │   └── usuarios.cy.js
 │   │   │   └── produtos.cy.js
 │   │   │   └── carrinhos.cy.js
-│   ├── fixtures/
-│   │   └── usuarios.json
-│   │   └── produtos.json
 │   ├── support/
 │   │   └── commands.js
 │   │   └── e2e.js
