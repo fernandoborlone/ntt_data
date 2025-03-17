@@ -45,16 +45,21 @@ NTT-DATA/
 │   │   └── login.cy.js
 ├── cypress/
 │   ├── e2e/
-│   │   ├── api/
+│   │   ├── API/
 │   │   │   └── login.cy.js
 │   │   │   └── cadastro.cy.js
 │   │   │   └── produtos.cy.js
-│   │   ├── e2e/
+│   │   ├── GUI/
 │   │   │   └── usuarios.cy.js
 │   │   │   └── produtos.cy.js
 │   │   │   └── carrinhos.cy.js
 │   ├── support/
-│   │   └── commands.js
+│   │   ├── API/
+│   │   │   └── commands.cy.js
+│   │   ├── GUI/
+│   │   │   |── locators/
+│   │   |   |   └── locators.js
+│   │   │   └── commands.cy.js
 │   │   └── e2e.js
 ├── cypress.config.js
 ├── package.json
